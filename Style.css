@@ -1,0 +1,67 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-height: 300px;
+
+}
+
+.table, th, td {
+    border: 1px solid #ddd;
+    font-family:sans-serif;
+    /*font-size: 5; */
+}
+
+/* Estilos de encabezados de columna */
+th {
+    background-color: #023047;
+    color: white;
+    text-align: left; 
+    padding: 10px;
+}
+
+/* Estilos de filas de datos */
+td {
+    padding: 8px;
+
+}
+
+/* Estilos para filas alternas (para una mayor legibilidad) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el botón de consulta */
+#consultarApiBtn {
+    background-color: #1fcc3f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#consultarApiBtn:hover {
+    background-color: #1fcc3f;
+}
+
+
+/* Estilos para el contenedor principal */
+.master {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    background-color: #023047;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
